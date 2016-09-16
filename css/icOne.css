@@ -1,3 +1,47 @@
 body, html {
   font-size: 12px;
+  font-family: "Calibri";
+  font-weight: 500;
+}
+
+.std-paragraph {
+	color: red;
+	font-size: 1.2rem;
+}
+
+nav ul{
+	display: inline-block;
+	list-style: none;
+	padding: 100px;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.sectionOne{
+	font-size: 50px;
+	color: blue;
+}
+
+p:first-child i {
+	color: blue;
+}
+ 
+img {
+	display: inline-block;
+	text-align: center;
+	padding-left: 500px;
+}
+
+.floatleft-text {
+	float: left;
+    padding-top: 50px;
+}
+
+.floatright-text {
+	float: right;
+    padding-top: 50px;
 }
